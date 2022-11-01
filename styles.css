@@ -1,0 +1,16 @@
+body{
+    background-color:ghostwhite;
+    color: darkred;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#game{
+    display: flex;
+    background-color: grey;
+
+}
