@@ -12,5 +12,21 @@ body{
 #game{
     display: flex;
     background-color: grey;
+    text-align: center;
 
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    background-color: grey;
+    border-left: solid blue 10px;
+    border-right: solid blue 10px;
+    border-top: solid blue 10px;
+    border-bottom: solid blue 10px;
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
 }
