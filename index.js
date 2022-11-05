@@ -188,8 +188,7 @@ function flipCard() {
 }
 
 function getResult() {
-    const allCards = Array.from(document.querySelectorAll('.card'))
-    allCards.forEach(card => card.addEventListener('click', flipCard))
+   
 
     const cardOfButton = this.parentElement
 
