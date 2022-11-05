@@ -31,3 +31,27 @@ body{
     padding: 10px;
     line-height: 120px;
 }
+
+.first-button {
+    background-color: lightsalmon;
+}
+
+.second-button {
+    background-color: darkkhaki;
+}
+
+.genre-title {
+    background-color: plum;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.correct-answer {
+    background-color:olivedrab;
+}
+
+.incorrect {
+    background-color: peru;
+}
