@@ -1,13 +1,22 @@
+
 body{
-    background-color:ghostwhite;
+    background-color:gray;
     color: darkred;
     margin: 0;
-    padding: 0;
+    padding: 0;  
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
+
+img{
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
 
 #game{
     display: flex;
