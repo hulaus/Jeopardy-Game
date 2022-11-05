@@ -1,7 +1,8 @@
 
 body{
-    background-color:gray;
-    color: darkred;
+    background-color:#F0131E;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;  
     display: flex;
@@ -13,15 +14,14 @@ body{
 img{
     width: 50%;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    padding-top:2em;
+    margin-bottom: -1em;
     }
 
 #game{
     display: flex;
     justify-content: center;
-    background-color: gold;
+    background-color: white;
     text-align: center;
 
 }
@@ -29,11 +29,11 @@ img{
 .card {
     width: 160px;
     height: 120px;
-    background-color: whitesmoke;
-    border-left: solid blue 10px;
-    border-right: solid blue 10px;
-    border-top: solid blue 10px;
-    border-bottom: solid blue 10px;
+    background-color: rgb(212, 207, 207);
+    border-left: solid #F0131E 10px;
+    border-right: solid #F0131E 10px;
+    border-top: solid #F0131E 10px;
+    border-bottom: solid #F0131E 10px;
     text-align: center;
     font-size: 100px;
     margin: 5px;
