@@ -165,6 +165,7 @@ function addCategory(category) {
 
 jeopardyCategories.forEach(category => addCategory(category))
 
+
 function flipCard() {
     this.innerHTML = ""
     this.style.fontSize = "15px"
@@ -212,4 +213,6 @@ function getResult() {
         }, 100)
     }
     cardOfButton.removeEventListener('click', flipCard)
+
+
 }

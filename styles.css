@@ -9,12 +9,22 @@ body{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    margin-top: -15em;
 }
 
-img{
+#spiderMan{
+    width: 20%;
+    text-align: right;
+}
+
+#groot{
+    width: 10%;
+
+}
+
+#logo{
     width: 50%;
-    margin: 0;
-    padding-top:2em;
+    padding-left: 19em;
     margin-bottom: -1em;
     }
 
@@ -41,6 +51,11 @@ img{
     line-height: 120px;
 }
 
+#points{
+    font-size: 5em;
+    text-align: center;
+}
+
 .first-button {
     background-color: lightsalmon;
 }
@@ -63,4 +78,5 @@ img{
 
 .incorrect {
     background-color: peru;
+    opacity: 20%;
 }
