@@ -1,6 +1,10 @@
 const game = document.getElementById('game')
 const scoreDisplay = document.getElementById('score')
 
+initGame() {
+    
+}
+
 const jeopardyCategories = [
     {
         genre: "Avengers",
