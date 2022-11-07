@@ -1,9 +1,6 @@
 const game = document.getElementById('game')
 const scoreDisplay = document.getElementById('score')
 
-initGame() {
-    
-}
 
 const jeopardyCategories = [
     {
@@ -173,7 +170,7 @@ jeopardyCategories.forEach(category => addCategory(category))
 function flipCard() {
     this.innerHTML = ""
     this.style.fontSize = "15px"
-    this.style.lineHeight = "30px"
+    this.style.lineHeight = "20px"
     const textDisplay = document.createElement('div')
     textDisplay.classList.add('card-text')
     textDisplay.innerHTML = this.getAttribute('data-question')
@@ -191,6 +188,8 @@ function flipCard() {
     const allCards = Array.from(document.querySelector('.card'))
     allCards.forEach(card => card.removeEventListener('click', flipCard))
 }
+
+
 
 function getResult() {
    
