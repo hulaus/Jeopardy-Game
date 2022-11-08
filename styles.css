@@ -63,11 +63,11 @@ body{
 }
 
 .first-button {
-    background-color: lightsalmon;
+    background-color:rgb(179, 177, 177);
 }
 
 .second-button {
-    background-color: darkkhaki;
+    background-color: dimgray;
 }
 
 .genre-title {
