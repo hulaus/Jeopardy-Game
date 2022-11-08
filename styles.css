@@ -80,7 +80,7 @@ body{
 
 .correct-answer {
     background-color:olivedrab;
-    visibility: hidden;
+    opacity: 50%;
 }
 
 .incorrect {

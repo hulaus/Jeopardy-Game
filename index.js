@@ -171,6 +171,7 @@ function flipCard() {
     this.innerHTML = ""
     this.style.fontSize = "15px"
     this.style.lineHeight = "20px"
+    this.style.position = "center"
     const textDisplay = document.createElement('div')
     textDisplay.classList.add('card-text')
     textDisplay.innerHTML = this.getAttribute('data-question')
