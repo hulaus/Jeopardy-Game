@@ -11,4 +11,3 @@ const firstButton = document.createElement('button')
 
  card.addEventListener('click', flipCard)
  
- ## H
